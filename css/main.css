@@ -1,3 +1,9 @@
+/* Colors */
+/* primary colors */
+/* neutral colors */
+/* text colors */
+/* background colors */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 * {
   border: 0;
   margin: 0;
@@ -33,5 +39,36 @@ body {
 ol,
 ul {
   list-style-type: none;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.39062rem;
+  line-height: 3rem;
+  color: white;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.01438rem;
+  line-height: 2.375rem;
+  color: #23303e;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.00813rem;
+  line-height: 1.875rem;
+  color: #818498;
 }
 /*# sourceMappingURL=main.css.map */

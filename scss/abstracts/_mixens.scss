@@ -1,0 +1,15 @@
+@mixin Barlow ($font-size, $letter-spacing, $line-height) {
+    font-family: 'Barlow', sans-serif;
+    font-size: toRem($font-size);
+    font-weight: 600;
+    letter-spacing: toRem($letter-spacing);
+    line-height: toRem($line-height);
+}
+
+@mixin Fraunces ($font-size, $letter-spacing, $line-height, $font-weight) {
+    font-family: 'Fraunces', serif;
+    font-size: toRem($font-size);
+    font-weight: $font-weight;
+    letter-spacing: toRem($letter-spacing);
+    line-height: toRem($line-height);
+}
