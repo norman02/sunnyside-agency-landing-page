@@ -6,7 +6,7 @@ $soft-red: hsl(7, 99%, 70%);
 $yellow: hsl(51, 100%, 49%);
 $dark-cyan: hsl(167, 40%, 24%);
 $dark-blue: hsl(198, 62%, 26%);
-$dark-moderate-cyan: hsl(168, 34%, 41%);
+$dark-moderate-cyan: hsla(168, 44%, 70%, 1);
 
 /* neutral colors */
 
@@ -23,6 +23,7 @@ $heading-text-color: $very-dark-desaturated-blue;
 $photography-text: $dark-blue;
 $primary-text-color: $dark-grayish-blue;
 $title-text-color: $white;
+$footer-text-color: $dark-cyan;
 
 /* background colors */ 
 $footer-bg-color:$dark-moderate-cyan;

@@ -1,0 +1,28 @@
+footer {
+    background-color: $footer-bg-color;
+    padding-bottom: toRem(80);
+
+    .logo {
+        height: toRem(33);
+        margin-top: toRem(64); 
+        width: toRem(170);
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: toRem(40);
+
+        a {
+          @include Barlow(18, -0.13, 25);
+          color: $footer-text-color;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        margin: toRem(91) auto 0 auto;
+        width: toRem(164);
+    }
+}

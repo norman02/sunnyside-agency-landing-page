@@ -113,6 +113,39 @@ p {
   background-repeat: no-repeat;
   height: 6.7175rem;
   width: 1.875rem;
-  margin: 3.875rem auto;
+  margin: 3.875rem auto 0 auto;
+}
+
+footer {
+  background-color: #91d4c7;
+  padding-bottom: 5rem;
+}
+
+footer .logo {
+  height: 2.0625rem;
+  margin-top: 4rem;
+  width: 10.625rem;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
+}
+
+footer .menu a {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.00813rem;
+  line-height: 1.5625rem;
+  color: #25564b;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5.6875rem auto 0 auto;
+  width: 10.25rem;
 }
 /*# sourceMappingURL=main.css.map */
