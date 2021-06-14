@@ -1,0 +1,21 @@
+.header {
+    background-image: url('../images/mobile/image-header.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: toRem(136.52);
+    padding-top: toRem(144);
+    width: 100vw;
+    
+    &--title {
+        margin-top: toRem(144);
+    }
+
+    &--arrow {
+        background-image: url('../images/icon-arrow-down.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: toRem(107.48);
+        width: toRem(30);
+        margin: toRem(62) auto;
+    }
+}
