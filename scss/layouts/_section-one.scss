@@ -20,12 +20,12 @@
 
         &--A {
             display: block;
-            height: toRem(312);
+            height: 82vw;
             width: 100vw;
             background-image: url('../images/mobile/image-transform.jpg');
             background-position: center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             
         }
 
@@ -39,13 +39,13 @@
 
         &--C {
             display: block;
-            height: toRem(312);
+            height: 82vw;
             margin-top: toRem(64);
             width: 100vw;
             background-image: url('../images/mobile/image-stand-out.jpg');
             background-position: center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
 
         &--D {

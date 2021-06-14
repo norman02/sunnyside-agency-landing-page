@@ -96,9 +96,11 @@ p {
 
 .header {
   background-image: url("../images/mobile/image-header.jpg");
-  background-size: contain;
+  background-position: center bottom;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 33.625rem;
+  height: 143.36vw;
+  overflow: hidden;
   width: 100vw;
 }
 
@@ -170,12 +172,12 @@ footer .social {
 
 .home--one--A {
   display: block;
-  height: 19.5rem;
+  height: 82vw;
   width: 100vw;
   background-image: url("../images/mobile/image-transform.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .home--one--B {
@@ -188,13 +190,13 @@ footer .social {
 
 .home--one--C {
   display: block;
-  height: 19.5rem;
+  height: 82vw;
   margin-top: 4rem;
   width: 100vw;
   background-image: url("../images/mobile/image-stand-out.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .home--one--D {

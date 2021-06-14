@@ -1,9 +1,12 @@
 .header {
     background-image: url('../images/mobile/image-header.jpg');
-    background-size: contain;
+    background-position: center bottom;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: toRem(538);
+    height: 143.36vw;
+    overflow: hidden;
     width: 100vw;
+
     
     .title {
         padding-top: toRem(144);
