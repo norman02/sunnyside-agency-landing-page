@@ -98,13 +98,12 @@ p {
   background-image: url("../images/mobile/image-header.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-bottom: 8.5325rem;
-  padding-top: 9rem;
+  height: 33.625rem;
   width: 100vw;
 }
 
-.header--title {
-  margin-top: 9rem;
+.header .title {
+  padding-top: 9rem;
 }
 
 .header--arrow {
@@ -147,5 +146,66 @@ footer .social {
   justify-content: space-evenly;
   margin: 5.6875rem auto 0 auto;
   width: 10.25rem;
+}
+
+.home--one a {
+  font-family: 'Fraunces', serif;
+  font-size: 0.9375rem;
+  font-weight: 900;
+  letter-spacing: 0.0625rem;
+  line-height: 1.5625rem;
+  display: inline-block;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
+.home--one .bar {
+  background-color: rgba(250, 212, 0, 0.25);
+  border-radius: 28px;
+  display: block;
+  height: 0.625rem;
+  margin: 0 auto;
+  width: 8.5625rem;
+}
+
+.home--one--A {
+  display: block;
+  height: 19.5rem;
+  width: 100vw;
+  background-image: url("../images/mobile/image-transform.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home--one--B {
+  margin-top: 4rem;
+}
+
+.home--one--B p {
+  margin-top: 4.375rem;
+}
+
+.home--one--C {
+  display: block;
+  height: 19.5rem;
+  margin-top: 4rem;
+  width: 100vw;
+  background-image: url("../images/mobile/image-stand-out.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home--one--D {
+  margin-top: 4rem;
+}
+
+.home--one--D p {
+  margin-top: 2rem;
+}
+
+.home--one--D .bar {
+  background-color: rgba(254, 120, 103, 0.25);
 }
 /*# sourceMappingURL=main.css.map */

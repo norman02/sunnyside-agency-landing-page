@@ -1,0 +1,64 @@
+.home {
+
+    &--one {
+
+        a {
+            @include Fraunces(15, 1, 25, 900);
+            display: inline-block;
+            margin-top: toRem(40);
+            text-transform: uppercase;
+         }
+     
+         .bar {
+             background-color: hsla(51, 100%, 49%, 0.25);
+             border-radius: 28px;
+             display: block;
+             height: toRem(10);
+             margin: 0 auto;
+             width: toRem(137);
+         }
+
+        &--A {
+            display: block;
+            height: toRem(312);
+            width: 100vw;
+            background-image: url('../images/mobile/image-transform.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+        }
+
+        &--B {
+            margin-top: toRem(64);
+
+            p {
+                margin-top: toRem(70);
+            }
+        }
+
+        &--C {
+            display: block;
+            height: toRem(312);
+            margin-top: toRem(64);
+            width: 100vw;
+            background-image: url('../images/mobile/image-stand-out.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        &--D {
+            margin-top: toRem(64);
+
+            p {
+                margin-top: toRem(32);
+            }
+
+            .bar {
+                background-color: hsla(7, 99%, 70%, 0.25);
+            }
+        }
+        
+    }
+}

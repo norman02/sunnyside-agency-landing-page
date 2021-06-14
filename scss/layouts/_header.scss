@@ -2,12 +2,11 @@
     background-image: url('../images/mobile/image-header.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: toRem(136.52);
-    padding-top: toRem(144);
+    height: toRem(538);
     width: 100vw;
     
-    &--title {
-        margin-top: toRem(144);
+    .title {
+        padding-top: toRem(144);
     }
 
     &--arrow {
