@@ -81,6 +81,7 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  margin-bottom: -4.125rem;
 }
 
 .nav--burger {
@@ -91,5 +92,27 @@ p {
 
 .nav--menu {
   display: none;
+}
+
+.header {
+  background-image: url("../images/mobile/image-header.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 8.5325rem;
+  padding-top: 9rem;
+  width: 100vw;
+}
+
+.header--title {
+  margin-top: 9rem;
+}
+
+.header--arrow {
+  background-image: url("../images/icon-arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 6.7175rem;
+  width: 1.875rem;
+  margin: 3.875rem auto;
 }
 /*# sourceMappingURL=main.css.map */
