@@ -181,6 +181,11 @@ footer .social {
 }
 
 .home--one--B {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 82vw;
+  justify-content: center;
   margin-top: 4rem;
 }
 
@@ -200,6 +205,11 @@ footer .social {
 }
 
 .home--one--D {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 82vw;
+  justify-content: center;
   margin-top: 4rem;
 }
 

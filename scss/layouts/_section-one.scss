@@ -30,6 +30,11 @@
         }
 
         &--B {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 82vw;
+            justify-content: center;
             margin-top: toRem(64);
 
             p {
@@ -49,6 +54,11 @@
         }
 
         &--D {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 82vw;
+            justify-content: center;
             margin-top: toRem(64);
 
             p {
