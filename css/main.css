@@ -157,14 +157,14 @@ footer .social {
   letter-spacing: 0.0625rem;
   line-height: 1.5625rem;
   display: inline-block;
-  margin-top: 2.5rem;
+  margin-top: 10.67vw;
   text-transform: uppercase;
 }
 
 .home--one .bar {
   background-color: rgba(250, 212, 0, 0.25);
   border-radius: 28px;
-  display: block;
+  display: flex-block;
   height: 0.625rem;
   margin: 0 auto;
   width: 8.5625rem;
@@ -184,19 +184,18 @@ footer .social {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 82vw;
   justify-content: center;
-  margin-top: 4rem;
+  padding-bottom: 17.07vw;
+  padding-top: 17.07vw;
 }
 
 .home--one--B p {
-  margin-top: 4.375rem;
+  margin-top: 18.67vw;
 }
 
 .home--one--C {
   display: block;
   height: 82vw;
-  margin-top: 4rem;
   width: 100vw;
   background-image: url("../images/mobile/image-stand-out.jpg");
   background-position: center;
@@ -208,13 +207,13 @@ footer .social {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 82vw;
   justify-content: center;
-  margin-top: 4rem;
+  padding-bottom: 17.07vw;
+  padding-top: 17.07vw;
 }
 
 .home--one--D p {
-  margin-top: 2rem;
+  margin-top: 8.53vw;
 }
 
 .home--one--D .bar {
