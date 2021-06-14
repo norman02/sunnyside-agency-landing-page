@@ -1,0 +1,17 @@
+.nav {
+    @extend %margin;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: toRem(32);
+
+    &--burger {
+        background-image: url('../images/icon-hamburger.svg');
+        height: toRem(18);
+        width: toRem(24);
+    }
+
+    &--menu {
+        display: none;
+    }
+}

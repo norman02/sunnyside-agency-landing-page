@@ -4,6 +4,10 @@
 /* text colors */
 /* background colors */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+h1, h2, p, .nav {
+  margin: 0 6.4%;
+}
+
 * {
   border: 0;
   margin: 0;
@@ -70,5 +74,22 @@ p {
   letter-spacing: -0.00813rem;
   line-height: 1.875rem;
   color: #818498;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.nav--burger {
+  background-image: url("../images/icon-hamburger.svg");
+  height: 1.125rem;
+  width: 1.5rem;
+}
+
+.nav--menu {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
