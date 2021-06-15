@@ -1,0 +1,14 @@
+.home--three{
+
+    margin-top: toRem(64);
+
+    h2 {
+        @include Fraunces(16, 4, 19, 700);
+        color: $grayish-blue;
+        text-transform: uppercase;
+    }
+
+    .testimonial {
+        margin-top: toRem(68);
+    }
+}

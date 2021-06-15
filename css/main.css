@@ -56,6 +56,7 @@ h1 {
   letter-spacing: 0.39062rem;
   line-height: 3rem;
   color: white;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -74,6 +75,41 @@ p {
   letter-spacing: -0.00813rem;
   line-height: 1.875rem;
   color: #818498;
+}
+
+.testimonial .avatar {
+  background-image: url("../images/image-emily.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  height: 4.5rem;
+  margin: 0 auto;
+  width: 4.5rem;
+}
+
+.testimonial p {
+  margin-top: 2rem;
+}
+
+.testimonial .name {
+  margin-top: 2.625rem;
+}
+
+.testimonial .title {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: -0.01438rem;
+  line-height: 1.5625rem;
+  color: #a7abae;
+  margin-top: 0.8125rem;
+}
+
+.testimonial--two .avatar {
+  background-image: url("../images/image-thomas.jpg");
+}
+
+.testimonial--three .avatar {
+  background-image: url("../images/image-jennie.jpg");
 }
 
 .nav {
@@ -238,6 +274,7 @@ footer .social {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #25564b;
   display: flex;
   flex-direction: column;
   padding-top: 106.13vw;
@@ -249,9 +286,28 @@ footer .social {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #19536b;
   display: flex;
   flex-direction: column;
   padding-top: 106.13vw;
   width: 100vw;
+}
+
+.home--three {
+  margin-top: 4rem;
+}
+
+.home--three h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  line-height: 1.1875rem;
+  color: #a7abae;
+  text-transform: uppercase;
+}
+
+.home--three .testimonial {
+  margin-top: 4.25rem;
 }
 /*# sourceMappingURL=main.css.map */

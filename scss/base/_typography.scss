@@ -10,6 +10,7 @@ h1 {
     @extend %margin;
     @include Fraunces(40, 6.25, 48, 900);
     color: $title-text-color;
+    text-transform: uppercase;
 }
 
 h2 {

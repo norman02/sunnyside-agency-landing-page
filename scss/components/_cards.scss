@@ -1,0 +1,37 @@
+.testimonial {
+
+    .avatar {
+        background-image: url('../images/image-emily.jpg');
+        background-size: contain;
+        border-radius: 50%;
+        height: toRem(72);
+        margin: 0 auto;
+        width: toRem(72);
+    }
+
+    p {
+        margin-top: toRem(32);
+    }
+
+    .name {
+        margin-top: toRem(42);
+    }
+
+    .title {
+        @include Barlow(14, -0.23, 25);
+        color: $grayish-blue;
+        margin-top: toRem(13);
+    }
+
+    &--two {
+        .avatar {
+            background-image: url('../images/image-thomas.jpg');
+        }
+    }
+
+    &--three {
+        .avatar {
+            background-image: url('../images/image-jennie.jpg');
+        }
+    }
+}
