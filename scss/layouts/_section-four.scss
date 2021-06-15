@@ -1,0 +1,32 @@
+.home--four {
+    display: grid;
+    grid-template-areas: 'A B' 'C D';
+    margin-top: toRem(94);
+
+    .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vw;
+        width: 50vw;
+    }
+
+    &--A {
+        background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
+        grid-area: A;
+    }
+
+    &--B {
+        background-image: url('../images/mobile/image-gallery-orange.jpg');
+        grid-area: B;
+    }
+
+    &--C {
+        background-image: url('../images/mobile/image-gallery-cone.jpg');
+        grid-area: C;
+    }
+
+    &--D {
+        background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
+        grid-area: D;
+    }
+}

@@ -310,4 +310,37 @@ footer .social {
 .home--three .testimonial {
   margin-top: 4.25rem;
 }
+
+.home--four {
+  display: grid;
+  grid-template-areas: 'A B' 'C D';
+  margin-top: 5.875rem;
+}
+
+.home--four .image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  width: 50vw;
+}
+
+.home--four--A {
+  background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+  grid-area: A;
+}
+
+.home--four--B {
+  background-image: url("../images/mobile/image-gallery-orange.jpg");
+  grid-area: B;
+}
+
+.home--four--C {
+  background-image: url("../images/mobile/image-gallery-cone.jpg");
+  grid-area: C;
+}
+
+.home--four--D {
+  background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+  grid-area: D;
+}
 /*# sourceMappingURL=main.css.map */
