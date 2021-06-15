@@ -11,16 +11,25 @@ h1 {
     @include Fraunces(40, 6.25, 48, 900);
     color: $title-text-color;
     text-transform: uppercase;
+
+    @include media-lg {
+        @include Fraunces(56, 8.75, 67, 900);
+    }
 }
 
 h2 {
     @extend %margin;
     @include Fraunces(32, -0.23, 38, 900);
     color: $heading-text-color;
+
+    @include media-lg {
+        @include Fraunces(40, -0.29, 48, 900);
+    }
 }
 
 p {
     @extend %margin;
     @include Barlow(18, -0.13, 30);
     color: $primary-text-color;
+
 }

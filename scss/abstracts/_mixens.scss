@@ -13,3 +13,21 @@
     letter-spacing: toRem($letter-spacing);
     line-height: toRem($line-height);
 }
+
+@mixin media-md {
+    @media screen and (min-width: 500px) {
+        @content;
+    }   
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1000px) {
+        @content;
+    }   
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1500px) {
+        @content;
+    }   
+}

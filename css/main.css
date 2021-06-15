@@ -59,6 +59,16 @@ h1 {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 0.54688rem;
+    line-height: 4.1875rem;
+  }
+}
+
 h2 {
   font-family: 'Fraunces', serif;
   font-size: 2rem;
@@ -66,6 +76,16 @@ h2 {
   letter-spacing: -0.01438rem;
   line-height: 2.375rem;
   color: #23303e;
+}
+
+@media screen and (min-width: 1000px) {
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -0.01812rem;
+    line-height: 3rem;
+  }
 }
 
 p {
