@@ -112,18 +112,42 @@ p {
   background-image: url("../images/image-jennie.jpg");
 }
 
+.burger {
+  cursor: pointer;
+}
+
+.burger .bar {
+  display: block;
+  background-color: white;
+  margin: 5px 0;
+  opacity: 0.5;
+  height: 3px;
+  width: 28px;
+  transition: 0.8s;
+}
+
+.burger:hover .bar {
+  opacity: 1;
+}
+
+.active .burger .bar--one {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.active .burger .bar--two {
+  opacity: 0;
+}
+
+.active .burger .bar--three {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
 .nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
   margin-bottom: -4.125rem;
-}
-
-.nav--burger {
-  background-image: url("../images/icon-hamburger.svg");
-  height: 1.125rem;
-  width: 1.5rem;
 }
 
 .nav--menu {

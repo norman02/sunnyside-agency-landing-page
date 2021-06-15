@@ -1,0 +1,40 @@
+.burger {
+
+    cursor: pointer;
+    .bar {
+        
+        display: block;
+        background-color: hsla(0, 0%, 100%, 1);
+        margin: 5px 0;
+        opacity: 0.5;
+        height: 3px;
+        width: 28px;
+        transition: 0.8s;
+    }
+
+    &:hover {
+        .bar {
+            opacity: 1;
+        }
+    }
+   
+}
+
+.active {
+    .burger {
+        .bar {
+            
+            &--one {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+
+            &--two {
+                opacity: 0;
+            }
+
+            &--three {
+                transform: rotate(-45deg) translate(7px, -6px);
+            }
+        }
+    }
+}
