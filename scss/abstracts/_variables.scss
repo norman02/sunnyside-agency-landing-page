@@ -15,6 +15,7 @@ $very-dark-grayish-blue: hsl(213, 9%, 39%);
 $dark-grayish-blue: hsl(232, 10%, 55%);
 $grayish-blue: hsl(210, 4%, 67%);
 $white: hsl(0, 0%, 100%);
+$off-white: hsla(34, 100%, 99%, 1);
 
 
 /* text colors */
@@ -26,4 +27,5 @@ $title-text-color: $white;
 $footer-text-color: $dark-cyan;
 
 /* background colors */ 
+$menu-bg-color: $off-white;
 $footer-bg-color:$dark-moderate-cyan;
