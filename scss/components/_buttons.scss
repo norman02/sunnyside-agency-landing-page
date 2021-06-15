@@ -1,0 +1,19 @@
+.btn {
+    @include Fraunces(15, -0.11, 25, 900);
+    border-radius: 28px;
+    display: inline-block;
+    padding: toRem(16) toRem(37) toRem(25) toRem(32);
+    text-transform: uppercase;
+
+    &--yellow {
+        background-color: hsla(51, 100%, 49%, 1);
+
+        &:active {
+            transform: scale(0.98);
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
