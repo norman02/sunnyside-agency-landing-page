@@ -1,8 +1,11 @@
 .burger {
 
     cursor: pointer;
-    .bar {
-        
+
+    @include media-lg {
+        display: none;
+    }
+    .bar { 
         display: block;
         background-color: hsla(0, 0%, 100%, 1);
         margin: 5px 0;

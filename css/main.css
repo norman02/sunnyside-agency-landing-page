@@ -8,6 +8,12 @@ h1, h2, p, .nav {
   margin: 0 6.4%;
 }
 
+@media screen and (min-width: 500px) {
+  h1, h2, p, .nav {
+    margin: 0 2.77%;
+  }
+}
+
 * {
   border: 0;
   margin: 0;
@@ -136,6 +142,12 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) {
+  .burger {
+    display: none;
+  }
+}
+
 .burger .bar {
   display: block;
   background-color: white;
@@ -178,12 +190,28 @@ p {
   background-color: #fad400;
 }
 
+@media screen and (min-width: 1000px) {
+  .btn--yellow {
+    background-color: white;
+    color: #23303e !important;
+  }
+}
+
 .btn--yellow:active {
   transform: scale(0.98);
 }
 
 .btn--yellow:hover {
-  opacity: 0.5;
+  background-color: rgba(250, 212, 0, 0.5);
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+@media screen and (min-width: 1000px) {
+  .btn--yellow:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white !important;
+  }
 }
 
 .nav {
@@ -191,8 +219,27 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  margin-bottom: -4.125rem;
   position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.875rem;
+  }
+  .nav .logo {
+    width: 10.625rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .nav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+  }
 }
 
 .nav--menu {
@@ -206,8 +253,35 @@ p {
   width: 100%;
 }
 
+@media screen and (min-width: 500px) {
+  .nav--menu {
+    right: 0;
+    width: 25rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav--menu {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: auto;
+    width: 37.5rem;
+  }
+}
+
 .nav--menu li {
   margin-top: 2.0625rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav--menu li {
+    margin: 0;
+  }
 }
 
 .nav--menu a {
@@ -219,8 +293,10 @@ p {
   color: #818498;
 }
 
-.nav--menu a:hover {
-  text-decoration: underline;
+@media screen and (min-width: 1000px) {
+  .nav--menu a {
+    color: white;
+  }
 }
 
 .nav--menu::before {
@@ -233,6 +309,12 @@ p {
   border-style: solid;
   border-width: 0 0 24px 24px;
   border-color: transparent transparent #fffdfa transparent;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav--menu::before {
+    display: none;
+  }
 }
 
 .active .nav--menu {

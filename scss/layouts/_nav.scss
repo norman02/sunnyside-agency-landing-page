@@ -4,8 +4,24 @@
     display: flex;
     justify-content: space-between;
     margin-top: toRem(32);
-    margin-bottom: toRem(-66);
     position: relative;
+
+    @include media-lg {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: toRem(46);
+
+        .logo {
+            width: toRem(170);
+        }
+    }
+
+    @include media-xl {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1600px;
+    }
 
     &--menu {
         background-color: $menu-bg-color;
@@ -17,22 +33,43 @@
         top: 0;
         width: 100%;
 
-        li {
-            margin-top: toRem(33);
+        @include media-md {
+            right: 0;
+            width: toRem(400);
         }
 
-        a{
+        @include media-lg {
+            align-items: center;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            right: auto;
+            width: toRem(600);
+        }
+
+        li {
+            margin-top: toRem(33);
+
+            @include media-lg {
+                margin: 0
+            }
+        }
+
+        a {
            @include Barlow(20, -0.14, 25);
            color: hsla(232, 10%, 55%, 1);
 
-           &:hover {
-               text-decoration: underline;
+           @include media-lg {
+               color: white;
            }
+
         }
 
         &::before {
             content: "";
-
             position: absolute;
             right: 0;
             top: -23px;
@@ -41,6 +78,10 @@
             border-style: solid;
             border-width: 0 0 24px 24px;
             border-color: transparent transparent $menu-bg-color transparent;
+
+            @include media-lg {
+                display: none;
+            }
 
         }
     }

@@ -8,12 +8,24 @@
     &--yellow {
         background-color: hsla(51, 100%, 49%, 1);
 
+        @include media-lg {
+            background-color: white;
+            color: $heading-text-color !important;
+        }
+
         &:active {
             transform: scale(0.98);
         }
 
         &:hover {
-            opacity: 0.5;
+            background-color: hsla(51, 100%, 49%, 0.5);
+            text-decoration: none;
+            transition: 0.8s;
+
+            @include media-lg {
+                background-color: hsla(0, 0%, 100%, 0.25);
+                color: white !important;
+            }
         }
     }
 }
