@@ -4,24 +4,54 @@
         display: grid;
         grid-template-columns: 100vw;
 
+        @include media-lg {
+            grid-template-areas: 'B A' 'C D';
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
         .image {
+            background-position: center;
             background-size: cover;
+            background-repeat: no-repeat;
             height: 83.2vw;
+
+            @include media-lg {
+                height: auto;
+            }
         }
 
         .text-block {
             margin-bottom: 17.06vw;
             margin-top: 17.06vw;
+
+            @include media-lg {
+                margin-bottom: 10.87vw;
+                margin-top: 10.93vw;
+                text-align: left;
+            }
+        }
+
+        h2 {
+            margin-left: 10.93vw;
         }
 
         p {
             margin-bottom: 10.67vw;
             margin-top: 18.67vw;
+
+            @include media-lg {
+                margin: 6.23vw 7.61vw 3.32vw 10.93vw;
+            }
         }
 
         a {
             @include Fraunces(15, 1, 25, 900);
             text-transform: uppercase;
+
+            @include media-lg {
+                margin-left: 12.01vw;
+            }
         }
 
         .bar {
@@ -31,22 +61,42 @@
             border-radius: 28px;
             margin: 0 auto;
             opacity: 0.25;
+
+            @include media-lg {
+                margin-left: 11.45vw;
+            }
         }
 
         &--A {
             background-image: url('../images/mobile/image-transform.jpg');
+
+            @include media-lg {
+                grid-area: A;
+                background-image: url('../images/desktop/image-transform.jpg');
+            }
             
         }
 
         &--B {
-            
+            @include media-lg {
+                grid-area: B;
+            }
         }
 
         &--C {
             background-image: url('../images/mobile/image-stand-out.jpg');
+
+            @include media-lg {
+                background-image: url('../images/desktop/image-stand-out.jpg');
+                grid-area: C;
+            }
         }
 
         &--D {
+
+            @include media-lg {
+                grid-area: D;
+            }
 
             p {
                 margin-top: 8.53vw;
