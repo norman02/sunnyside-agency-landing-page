@@ -17,12 +17,6 @@
         }
     }
 
-    @include media-xl {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1400px;
-    }
-
     &--menu {
         background-color: $menu-bg-color;
         display: none;

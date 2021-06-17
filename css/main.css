@@ -8,9 +8,17 @@ h1, h2, p, .nav {
   margin: 0 6.4%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   h1, h2, p, .nav {
     margin: 0 2.77%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .page-container {
+    margin: 0 auto;
+    max-width: 1800px;
+    overflow: hidden;
   }
 }
 
@@ -84,7 +92,7 @@ h2 {
   color: #23303e;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
   h2 {
     font-family: 'Fraunces', serif;
     font-size: 2.5rem;
@@ -234,14 +242,6 @@ p {
   }
 }
 
-@media screen and (min-width: 1800px) {
-  .nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1400px;
-  }
-}
-
 .nav--menu {
   background-color: #fffdfa;
   display: none;
@@ -253,7 +253,7 @@ p {
   width: 100%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .nav--menu {
     right: 0;
     width: 25rem;
@@ -331,19 +331,10 @@ p {
   width: 100vw;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .header {
     background-image: url("../images/desktop/image-header.jpg");
     height: 50rem;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .header {
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1800px;
   }
 }
 
@@ -407,8 +398,8 @@ footer .social {
 @media screen and (min-width: 1000px) {
   .home--one {
     grid-template-areas: 'B A' 'C D';
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
   }
 }
 
@@ -417,6 +408,12 @@ footer .social {
   background-size: cover;
   background-repeat: no-repeat;
   height: 83.2vw;
+}
+
+@media screen and (min-width: 600px) {
+  .home--one .image {
+    height: 60vw;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -438,8 +435,10 @@ footer .social {
   }
 }
 
-.home--one h2 {
-  margin-left: 10.93vw;
+@media screen and (min-width: 1000px) {
+  .home--one h2 {
+    margin-left: 10.93vw;
+  }
 }
 
 .home--one p {
@@ -447,7 +446,7 @@ footer .social {
   margin-top: 18.67vw;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
   .home--one p {
     margin: 6.23vw 7.61vw 3.32vw 10.93vw;
   }
