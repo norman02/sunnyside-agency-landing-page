@@ -31,5 +31,9 @@
         height: toRem(107.48);
         width: toRem(30);
         margin: toRem(62) auto 0 auto;
+
+        @include media-lg {
+            margin-top: toRem(109.54);
+        }
     }
 }

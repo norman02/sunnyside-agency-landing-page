@@ -360,6 +360,12 @@ p {
   margin: 3.875rem auto 0 auto;
 }
 
+@media screen and (min-width: 1000px) {
+  .header--arrow {
+    margin-top: 6.84625rem;
+  }
+}
+
 footer {
   background-color: #91d4c7;
   padding-bottom: 5rem;
@@ -393,66 +399,50 @@ footer .social {
   width: 10.25rem;
 }
 
+.home--one {
+  display: grid;
+  grid-template-columns: 100vw;
+}
+
+.home--one .image {
+  background-size: cover;
+  height: 83.2vw;
+}
+
+.home--one .text-block {
+  margin-bottom: 17.06vw;
+  margin-top: 17.06vw;
+}
+
+.home--one p {
+  margin-bottom: 10.67vw;
+  margin-top: 18.67vw;
+}
+
 .home--one a {
   font-family: 'Fraunces', serif;
   font-size: 0.9375rem;
   font-weight: 900;
   letter-spacing: 0.0625rem;
   line-height: 1.5625rem;
-  display: inline-block;
-  margin-top: 10.67vw;
   text-transform: uppercase;
 }
 
 .home--one .bar {
-  background-color: rgba(250, 212, 0, 0.25);
+  width: 137px;
+  height: 10px;
+  background: #FAD400 0% 0% no-repeat padding-box;
   border-radius: 28px;
-  display: block;
-  height: 0.625rem;
   margin: 0 auto;
-  width: 8.5625rem;
+  opacity: 0.25;
 }
 
 .home--one--A {
-  display: block;
-  height: 82vw;
-  width: 100vw;
   background-image: url("../images/mobile/image-transform.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.home--one--B {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 17.07vw;
-  padding-top: 17.07vw;
-}
-
-.home--one--B p {
-  margin-top: 18.67vw;
 }
 
 .home--one--C {
-  display: block;
-  height: 82vw;
-  width: 100vw;
   background-image: url("../images/mobile/image-stand-out.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.home--one--D {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 17.07vw;
-  padding-top: 17.07vw;
 }
 
 .home--one--D p {
@@ -460,7 +450,7 @@ footer .social {
 }
 
 .home--one--D .bar {
-  background-color: rgba(254, 120, 103, 0.25);
+  background-color: #FE7766;
 }
 
 .home--two h2 {
