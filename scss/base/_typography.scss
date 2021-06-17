@@ -22,7 +22,7 @@ h2 {
     @include Fraunces(32, -0.23, 38, 900);
     color: $heading-text-color;
 
-    @include media-lg {
+    @include media-md {
         @include Fraunces(40, -0.29, 48, 900);
     }
 }
