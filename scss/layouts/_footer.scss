@@ -11,7 +11,8 @@ footer {
     .menu {
         display: flex;
         justify-content: space-evenly;
-        margin-top: toRem(40);
+        margin: toRem(40) auto 0 auto;
+        max-width: toRem(297);
 
         a {
           @include Barlow(18, -0.13, 25);

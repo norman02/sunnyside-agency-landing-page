@@ -390,7 +390,8 @@ footer .logo {
 footer .menu {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 2.5rem;
+  margin: 2.5rem auto 0 auto;
+  max-width: 18.5625rem;
 }
 
 footer .menu a {
