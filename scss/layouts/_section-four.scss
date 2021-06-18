@@ -3,11 +3,21 @@
     grid-template-areas: 'A B' 'C D';
     margin-top: toRem(94);
 
+    @include media-md {
+        grid-template-areas: 'A B C D';
+        margin-top: toRem(168);
+    }
+
     .image {
         background-size: cover;
         background-repeat: no-repeat;
         height: 50vw;
         width: 50vw;
+
+        @include media-md {
+            height: 30.93vw;
+            width: 25vw;
+        }
     }
 
     &--A {

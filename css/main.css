@@ -669,11 +669,25 @@ footer .social {
   margin-top: 5.875rem;
 }
 
+@media screen and (min-width: 600px) {
+  .home--four {
+    grid-template-areas: 'A B C D';
+    margin-top: 10.5rem;
+  }
+}
+
 .home--four .image {
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vw;
   width: 50vw;
+}
+
+@media screen and (min-width: 600px) {
+  .home--four .image {
+    height: 30.93vw;
+    width: 25vw;
+  }
 }
 
 .home--four--A {
