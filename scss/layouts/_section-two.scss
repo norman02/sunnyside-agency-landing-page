@@ -3,7 +3,8 @@
     &--two {
 
         @include media-lg {
-            display: flex;
+            display: grid;
+            grid-template-columns: 50vw auto;
         }
 
         h2 {
