@@ -124,8 +124,27 @@ p {
   margin-top: 2rem;
 }
 
+@media screen and (min-width: 600px) {
+  .testimonial p {
+    margin: 2rem 22vw 0 22vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .testimonial p {
+    margin: 3.625rem auto 0 auto;
+    max-width: 24.22vw;
+  }
+}
+
 .testimonial .name {
   margin-top: 2.625rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .testimonial .name {
+    margin-top: 4.9375rem;
+  }
 }
 
 .testimonial .title {
@@ -593,6 +612,14 @@ footer .social {
   margin-top: 4rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .home--three {
+    display: grid;
+    grid-template-areas: '. title .' 't1 t2 t3';
+    margin: 10rem 11.42vw 0 11.42vw;
+  }
+}
+
 .home--three h2 {
   font-family: 'Fraunces', serif;
   font-size: 1rem;
@@ -603,8 +630,37 @@ footer .social {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 600px) {
+  .home--three h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.3125rem;
+    line-height: 1.5rem;
+    grid-area: title;
+  }
+}
+
 .home--three .testimonial {
   margin-top: 4.25rem;
+}
+
+@media screen and (min-width: 600px) {
+  .home--three .testimonial {
+    margin-top: 5.375rem;
+  }
+}
+
+.home--three .testimonial--one {
+  grid-area: t1;
+}
+
+.home--three .testimonial--two {
+  grid-area: t2;
+}
+
+.home--three .testimonial--three {
+  grid-area: t3;
 }
 
 .home--four {

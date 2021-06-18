@@ -11,10 +11,23 @@
 
     p {
         margin-top: toRem(32);
+
+        @include media-md {
+            margin: toRem(32) 22vw 0 22vw;
+        }
+
+        @include media-lg {
+            margin: toRem(58) auto 0 auto;
+            max-width: 24.22vw;
+        }
     }
 
     .name {
         margin-top: toRem(42);
+
+        @include media-lg {
+            margin-top: toRem(79);
+        }
     }
 
     .title {

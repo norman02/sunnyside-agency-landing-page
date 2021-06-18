@@ -2,13 +2,42 @@
 
     margin-top: toRem(64);
 
+
+    @include media-lg {
+        display: grid;
+        grid-template-areas: '. title .' 't1 t2 t3';
+        margin: toRem(160) 11.42vw 0 11.42vw;
+    }
+
     h2 {
         @include Fraunces(16, 4, 19, 700);
         color: $grayish-blue;
         text-transform: uppercase;
+
+        @include media-md {
+            @include Fraunces(20, 5, 24, 700);
+            grid-area: title;
+        }
     }
 
     .testimonial {
         margin-top: toRem(68);
+
+        @include media-md {
+            margin-top: toRem(86);
+        }
+
+        &--one {
+            grid-area: t1;
+        }
+
+        &--two {
+            grid-area: t2;
+        }
+
+        &--three {
+            grid-area: t3;
+        }
+
     }
 }
